@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-.containerr{
+.custom-container{
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
@@ -36,7 +36,7 @@ h2{
     background-color: #272634;
 }
 
-.sub-nav .containerr{
+.sub-nav .custom-container{
     display: flex;
     align-items: center;
     justify-content: end;
@@ -83,7 +83,7 @@ h2{
     background-color: #1D1F21;
 }
 
-.main-nav .containerr{
+.main-nav .custom-container{
     display: flex;
     align-items: center;
     justify-content: end;
@@ -134,7 +134,7 @@ h2{
     
 }
 
-.hero .containerr{
+.hero .custom-container{
     padding: 125px 142px 160px;
 }
 
@@ -156,10 +156,11 @@ section.funding-methods{
     font-family: Proxima Nova-Regular;
 }
 
-section.funding-methods .containerr{
+section.funding-methods .custom-container{
     padding: 80px 144px;
 }
-    .funding-methods .method{
+    /* accordion styles */
+    .funding-methods .method, .faqs .question{
         background-color: white;
         box-shadow: 0px 5px 19px 0px rgba(11, 31, 39, 0.15);
         width: 678px;
@@ -168,7 +169,7 @@ section.funding-methods .containerr{
         font-family: Proxima Nova-Thin, sans-serif;
     }
 
-    .funding-methods .method .head{
+    .funding-methods .method .head, .faqs .question .head{
         display: flex;
         align-items: center;
         height: 130px;
@@ -191,16 +192,16 @@ section.funding-methods .containerr{
         width: 448px;
     }
 
-    .funding-methods .method .head .arrow-down{
+    .funding-methods .method .head .arrow-down, .faqs .question .head .arrow-down{
         width: 20px;
         transition: all ease-in-out .2s;
     }
 
-    .funding-methods .method .head .rotate-arrow{
+    .funding-methods .method .head .rotate-arrow, .faqs .question .head .rotate-arrow{
         transform: rotate(180deg);
     }
     
-    .funding-methods .method .body{
+    .funding-methods .method .body, .faqs .question .body{
         height: 0;
         padding-left: 45px;
         padding-right: 100px;
@@ -209,7 +210,7 @@ section.funding-methods .containerr{
         transition: all ease-in-out .2s;
     }
 
-    .funding-methods .method .display-body{
+    .funding-methods .method .display-body, .faqs .question .display-body{
         height: auto;
         padding-bottom: 45px;
         overflow: unset;
@@ -226,7 +227,7 @@ section.savings{
     color: white;
     position: relative;
 }
-    .savings .containerr{
+    .savings .custom-container{
         padding: 70px 144px 40px;
     }
 
@@ -363,5 +364,247 @@ section.savings{
     border: none;
     font-size: 16px;
     box-shadow: 0px 6px 6px 0px rgba(11, 31, 39, 0.08);
+}
 
+
+.fund-bootcamp .custom-container{
+    padding: 70px 144px 40px;
+}
+
+.fund-bootcamp h2{
+    margin-bottom: 60px;
+}
+
+.fund-bootcamp .info{
+    display: flex;
+    gap: 55px;
+    max-width: 623px;
+}
+
+.fund-bootcamp .info p{
+    max-width: 245px;
+    font-family: Proxima Nova-Thin;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.fund-bootcamp .info table{
+    font-family: Proxima Nova-Thin;
+    font-size: 16px;
+    border-collapse: collapse;
+    position: relative;
+    margin-top: 20px;
+}
+
+.fund-bootcamp .info table::before{
+    content: 'Any Coding Dojo Program';
+    font-family: Proxima Nova-Bold;
+    width: 133px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: -55px;
+}
+
+.fund-bootcamp .info table .full{
+    font-size: 12px;
+}
+
+.fund-bootcamp .info table tr{
+    height: 62px;
+}
+
+.fund-bootcamp .info table tr td{
+    padding-inline: 21px;
+}
+
+.fund-bootcamp .info table tr td span{
+    width: 50px;
+}
+
+.fund-bootcamp .info table tr td:first-child{
+    width: 57%;
+}
+
+.fund-bootcamp .info table tr td:last-child{
+    text-align: center;
+}
+
+.fund-bootcamp .info table tr:nth-child(odd) td{
+    background-color: rgba(196, 196, 196, 0.23);
+}
+
+.fund-bootcamp .info table tr:first-child td:first-child{
+    border-radius: 8px 0 0 0;
+}
+
+.fund-bootcamp .info table tr:first-child td:last-child{
+    border-radius: 0 8px 0 0;
+}
+
+
+.start-funding{
+    background: rgba(80, 81, 112, 1);
+    color: white;
+}
+
+.start-funding .custom-container{
+    padding: 70px 144px 40px;
+}
+
+    .start-funding h3{
+        font-family: Proxima Nova-Regular;
+        margin-bottom: 7px;
+    }
+
+    .start-funding p{
+        font-size: 18px;
+        font-family: Proxima Nova-Thin;
+        line-height: 27px;
+        max-width: 612px;
+    }
+
+    .start-funding ul{
+        margin-top: 55px;
+        list-style: none;
+    }
+
+    .start-funding ul li{
+        margin-bottom: 32px;
+    }
+
+    .start-funding ul li > div{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .start-funding ul li .desc{
+        max-width: 400px;
+    }
+
+    .start-funding ul li .img-container{
+        width: 191px;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+
+.get-hired{
+    background-color: rgba(248, 250, 255, 1);
+    ;
+}
+
+.get-hired .custom-container{
+    padding: 85px 144px 85px;
+}
+
+    .get-hired h2{
+        max-width: 698px;
+    }
+
+
+.review .custom-container{
+    padding: 70px 144px 40px;
+}
+
+    .review .custom-container > p{
+        font-family: Proxima Nova-Regular;
+        font-size: 31px;
+        width: 646px;
+        line-height: 37.76px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .review .custom-container > p .quote-icon{
+        position: absolute;
+        left: 32%;
+        bottom: -30%;
+        z-index: -1;
+    }
+
+    .reviewer{
+        display: flex;
+    }
+
+    .reviewer .rev-image{
+        width: 49px;
+        height: 56px;
+        background-color: #C4C4C4;
+        border-radius: 8px;
+        margin-right: 20px;
+    }
+
+    .reviewer .rev-name{
+        font-family: Proxima Nova-Bold;
+        font-size: 19px;
+    }
+
+    .reviewer .desc{
+        font-family: Proxima Nova-Thin;
+        font-size: 16px;
+    }
+
+
+.faqs{
+    background-color: rgba(248, 250, 255, 1);
+}
+
+.faqs .custom-container{
+    padding: 70px 144px 40px;
+}
+
+    .faqs .custom-container h2{
+        font-size: 32px;
+    }
+
+    .faqs .faqs-accordion{
+        margin-bottom: 70px;
+    }
+
+    .faqs .question .head{
+        justify-content: space-between;
+        height: 90px;
+    }
+
+    .faqs .question .head h3{
+        font-family: Proxima Nova-Regular;
+        margin-left: 65px;
+    }
+
+    .faqs .question .head img{
+        margin-right: 32px;
+    }
+
+    .faqs .question .body{
+        padding-left: 65px;
+    }
+
+
+footer{
+    background-color: #1E1E29;
+}
+
+footer .custom-container{
+    padding: 70px 144px 40px;
+    color: white;
+}
+
+footer .links-group{
+    display: flex;
+    gap: 38px;
+    font-size: 14px;
+}
+
+footer .links-group h4{
+    font-family: Proxima Nova-Regular;
+    margin-bottom: 24px;
+}
+
+footer .links-group .links a{
+    font-family: Proxima Nova-Thin;
+    display: block;
+    color: white;
+    margin-bottom: 12px;
+    text-decoration: none;
 }
