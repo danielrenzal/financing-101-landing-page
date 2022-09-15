@@ -1,0 +1,367 @@
+@font-face{
+    font-family: Proxima Nova-Regular;
+    src: url(assets/proxima_ssv/ProximaNova-Regular.otf);
+}
+
+@font-face{
+    font-family: Proxima Nova-Thin;
+    src: url(assets/proxima_ssv/Proxima\ Nova\ Thin.otf);
+}
+
+@font-face{
+    font-family: Proxima Nova-Bold;
+    src: url(assets/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerr{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h2{
+    font-family: Proxima Nova-Bold, sans-serif;
+    font-size: 40px;
+    max-width: 555px;
+    margin-bottom: 42px;
+}
+
+.sub-nav{
+    background-color: #272634;
+}
+
+.sub-nav .containerr{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 16px;
+    height: 42px;
+    padding-inline: 40px;
+    font-family: Proxima Nova-Thin, sans-serif;
+}
+
+.sub-nav p{
+    color: white;
+}
+
+.sub-nav span{
+    margin-left: 230px;
+}
+
+.sub-nav span img{
+    margin-right: 12px;
+}
+
+.sub-nav span a{
+    color: #05AAE1;
+    text-decoration: none;
+}
+
+.sub-nav span{
+    display: flex;
+    align-items: center;
+}
+
+.sub-nav button{
+    background-color: transparent;
+    color: white;
+    height: 36px;
+    width: 120px;
+    border: 1px solid #05AAE1;
+    font-size: 16px;
+    margin-left: 64px;
+    font-family: Proxima Nova-Thin, sans-serif;
+}
+
+.main-nav{
+    background-color: #1D1F21;
+}
+
+.main-nav .containerr{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 56px;
+    padding-right: 40px;
+    padding-left: 32px;
+    font-family: Proxima Nova-Bold, sans-serif;
+}
+
+.main-nav .menu{
+    display: flex;
+    color: white;
+    margin-left: 182px;
+}
+
+.main-nav .menu span{
+    display: flex;
+    align-items: center;
+    margin-right: 41px;
+}
+
+.main-nav .menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav .menu span .arrow-down{
+    margin-left: 10px;
+}
+
+.main-nav button{
+    background-color: #05AAE1;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+    font-family: Proxima Nova-Bold, sans-serif;
+    margin-left: 62px;
+}
+
+.hero{
+    background-image: url('assets/financing_101_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+.hero .containerr{
+    padding: 125px 142px 160px;
+}
+
+.hero h1{
+    font-family: Proxima Nova-Bold, sans-serif;
+    font-size: 64px;
+    width: 575px;
+}
+
+.hero p{
+    font-family: Proxima Nova-Regular, sans-serif;
+    font-size: 18px;
+    width: 456px;
+    margin-top: 5px;
+}
+
+section.funding-methods{
+    background-color: #F8FAFF;
+    font-family: Proxima Nova-Regular;
+}
+
+section.funding-methods .containerr{
+    padding: 80px 144px;
+}
+    .funding-methods .method{
+        background-color: white;
+        box-shadow: 0px 5px 19px 0px rgba(11, 31, 39, 0.15);
+        width: 678px;
+        border-radius: 2px;
+        margin-bottom: 16px;
+        font-family: Proxima Nova-Thin, sans-serif;
+    }
+
+    .funding-methods .method .head{
+        display: flex;
+        align-items: center;
+        height: 130px;
+        cursor: pointer;
+    }
+
+    .funding-methods .method .head .img-container{
+        width: 166px;
+        text-align: center;
+    }
+
+    .funding-methods .method .head h3{
+        font-family: Proxima Nova-Regular, sans-serif;
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+
+    .funding-methods .method .head p{
+        font-size: 18px;
+        width: 448px;
+    }
+
+    .funding-methods .method .head .arrow-down{
+        width: 20px;
+        transition: all ease-in-out .2s;
+    }
+
+    .funding-methods .method .head .rotate-arrow{
+        transform: rotate(180deg);
+    }
+    
+    .funding-methods .method .body{
+        height: 0;
+        padding-left: 45px;
+        padding-right: 100px;
+        padding-bottom: 0;
+        overflow: hidden;
+        transition: all ease-in-out .2s;
+    }
+
+    .funding-methods .method .display-body{
+        height: auto;
+        padding-bottom: 45px;
+        overflow: unset;
+    }
+
+    .funding-methods .method .body small{
+        display: block;
+        margin-top: 16px;
+    }
+
+
+section.savings{
+    background-color: rgba(80, 81, 112, 1);
+    color: white;
+    position: relative;
+}
+    .savings .containerr{
+        padding: 70px 144px 40px;
+    }
+
+    .savings .breakdown{
+        display: flex;
+        gap: 32px;
+        margin-left: 12px;
+    }
+
+    .savings .option{
+        width: 130px;
+    }
+
+    .savings h2{
+        max-width: 575px; 
+    }
+
+    .savings h3{
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 14px;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+
+    .savings .price{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Proxima Nova-Bold;
+        font-size: 14px;
+        background-color: #05AAE1;
+        width: 130px;
+        height: 41px;
+        margin-bottom: 23px;
+    }
+
+    .savings .desc{
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+
+    .savings .discounts{
+        display: flex;
+        gap: 5px;
+    }
+
+        .discounts .option .desc{
+            padding-right: 15px;
+        }
+
+        .discounts .option:first-child .price{
+            border-radius: 24px 0 0 24px;
+            position: relative;
+        }
+
+        .discounts .option:first-child .price::before{
+            position: absolute;
+            content: '';
+            width: 50.5px;
+            height: 50.5px;
+            left: -8px;
+            top: -5.5px;
+            background-color: #05AAE1;
+            border-radius: 50%;
+        }
+
+        .discounts .option:last-child .price{
+            border-radius: 0 24px 24px 0;
+        }
+
+    .savings .saved-amount{
+        text-align: center;
+    }
+
+    .savings .saved-amount p{
+        font-size: 18px;
+        font-family: Proxima Nova-Thin;
+    }
+
+    .savings .saved-amount strong{
+        font-size: 26px;
+        font-family: Proxima Nova-Bold;
+    }
+
+    .savings .disclaimer{
+        font-family: sans-serif;
+        font-size: 10px;
+        margin-top: 32px;
+        max-width: 500px;
+    }
+
+    .savings .cat{
+        position: absolute;
+        bottom: -8px;
+        left: 794px;
+    }
+
+
+
+.discuss-funding{
+    width: 406px;
+    height: 441px;
+    background-color: white;
+    box-shadow: 0px 6px 6px 0px rgba(11, 31, 39, 0.08);
+    border-radius: 8px;
+    position: fixed;
+    top: 193px;
+    left: 61.7%;
+    padding: 51px 65px;
+
+}
+
+.discuss-funding h2{
+    font-size: 40px;
+    margin-bottom: 26px;
+}
+
+.discuss-funding p{
+    font-family: Proxima Nova-Thin;
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+
+.discuss-funding button{
+    width: 271px;
+    height: 65px;
+    background-color: #05AAE1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Proxima Nova-Regular;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 6px 6px 0px rgba(11, 31, 39, 0.08);
+
+}
