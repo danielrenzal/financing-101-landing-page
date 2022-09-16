@@ -86,7 +86,7 @@ h2{
 .main-nav .custom_container{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     height: 56px;
     padding-right: 40px;
     padding-left: 32px;
@@ -97,9 +97,10 @@ h2{
     display: flex;
     color: white;
     margin-left: 182px;
+    list-style: none;
 }
 
-.main-nav .menu span{
+.main-nav .menu li{
     display: flex;
     align-items: center;
     margin-right: 41px;
@@ -110,7 +111,7 @@ h2{
     text-decoration: none;
 }
 
-.main-nav .menu span .arrow-down{
+.main-nav .menu li .arrow-down{
     margin-left: 10px;
 }
 
@@ -123,7 +124,7 @@ h2{
     height: 36px;
     font-size: 16px;
     font-family: Proxima Nova-Bold, sans-serif;
-    margin-left: 62px;
+    margin-left: 20px;
 }
 
 .hero{
@@ -323,7 +324,7 @@ div.savings{
     .savings .cat{
         position: absolute;
         bottom: -8px;
-        left: 794px;
+        left: 55%;
     }
 
 
@@ -594,6 +595,10 @@ footer .links_group{
     display: flex;
     gap: 38px;
     font-size: 14px;
+}
+
+footer .links_group .links{
+    list-style: none;
 }
 
 footer .links_group h4{
