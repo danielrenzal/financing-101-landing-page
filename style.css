@@ -587,8 +587,13 @@ footer{
 }
 
 footer .custom_container{
-    padding: 70px 144px 40px;
+    padding: 70px 144px 65px;
     color: white;
+}
+
+footer .upper_footer{
+    display: flex;
+    justify-content: space-between;
 }
 
 footer .links_group{
@@ -597,19 +602,122 @@ footer .links_group{
     font-size: 14px;
 }
 
+footer .links_group nav{
+    width: 152px;
+}
+
 footer .links_group .links{
     list-style: none;
 }
 
 footer .links_group h4{
     font-family: Proxima Nova-Regular;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 footer .links_group .links a{
-    font-family: Proxima Nova-Thin;
     display: block;
+}
+
+footer a{
+    font-family: Proxima Nova-Thin;
     color: white;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
     text-decoration: none;
+}
+
+.blue_link{
+    color: #05AAE1;
+}
+
+.newsletter_form{
+    width: 410px;
+}
+
+.newsletter_form p{
+    font-family: Proxima Nova-Regular;
+}
+
+.newsletter_form input{
+    border-radius: 8px;
+    display: inline-block;
+    border: 1px white solid;
+    font-size: 14px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding: 15px 23px;
+}
+
+.newsletter_form input[type="text"]{
+    background-color: white;
+    font-family: Proxima Nova-Regular;
+    margin-right: 9px;
+    width: 285px;
+}
+
+.newsletter_form input[type="submit"]{
+    background-color: transparent;
+    color: white;
+    font-family: Proxima Nova-Bold;
+    width: 109px;
+}
+
+.newsletter_form small{
+    display: block;
+    font-family: Proxima Nova-Thin;
+    font-size: 10px;
+    line-height: 17px;
+    padding-right: 2em;
+}
+
+footer hr{
+    border: none;
+    background-color: rgb(94, 94, 94);
+    height: 1px;
+    margin-top: 45px;
+    margin-bottom: 32px;
+}
+
+.lower_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower_footer .contact{
+    font-family: Proxima Nova-Thin;
+    font-size: 20px;
+}
+
+.lower_footer .contact .number strong{
+    font-family: Proxima Nova-Regular;
+}
+
+.lower_footer .contact .time{
+    font-size: 16px;
+}
+
+.lower_footer .contact .time a{
+    font-family: Proxima Nova-Regular;
+    text-decoration: underline;
+}
+
+.lower_footer .languages{
+    font-size: 12px;
+    margin-right: 270px;
+    text-transform: uppercase;
+}
+
+.lower_footer .languages span{
+    font-family: Proxima Nova-Bold;
+    margin-right: 15px;
+}
+
+.lower_footer .languages .english{
+    font-family: Proxima Nova-Regular;
+    margin-right: 15px;
+}
+
+.lower_footer .languages .chinese{
+    color: rgb(197, 197, 197);
 }
