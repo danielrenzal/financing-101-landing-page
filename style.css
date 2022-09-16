@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-.custom-container{
+.custom_container{
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
@@ -36,7 +36,7 @@ h2{
     background-color: #272634;
 }
 
-.sub-nav .custom-container{
+.sub-nav .custom_container{
     display: flex;
     align-items: center;
     justify-content: end;
@@ -83,7 +83,7 @@ h2{
     background-color: #1D1F21;
 }
 
-.main-nav .custom-container{
+.main-nav .custom_container{
     display: flex;
     align-items: center;
     justify-content: end;
@@ -134,7 +134,7 @@ h2{
     
 }
 
-.hero .custom-container{
+.hero .custom_container{
     padding: 125px 142px 160px;
 }
 
@@ -151,16 +151,16 @@ h2{
     margin-top: 5px;
 }
 
-section.funding-methods{
+section.funding_methods{
     background-color: #F8FAFF;
     font-family: Proxima Nova-Regular;
 }
 
-section.funding-methods .custom-container{
+section.funding_methods .custom_container{
     padding: 80px 144px;
 }
     /* accordion styles */
-    .funding-methods .method, .faqs .question{
+    .funding_methods .method, .faqs .question{
         background-color: white;
         box-shadow: 0px 5px 19px 0px rgba(11, 31, 39, 0.15);
         width: 678px;
@@ -169,39 +169,39 @@ section.funding-methods .custom-container{
         font-family: Proxima Nova-Thin, sans-serif;
     }
 
-    .funding-methods .method .head, .faqs .question .head{
+    .funding_methods .method .head, .faqs .question .head{
         display: flex;
         align-items: center;
         height: 130px;
         cursor: pointer;
     }
 
-    .funding-methods .method .head .img-container{
+    .funding_methods .method .head .img_container{
         width: 166px;
         text-align: center;
     }
 
-    .funding-methods .method .head h3{
+    .funding_methods .method .head h3{
         font-family: Proxima Nova-Regular, sans-serif;
         font-size: 22px;
         margin-bottom: 2px;
     }
 
-    .funding-methods .method .head p{
+    .funding_methods .method .head p{
         font-size: 18px;
         width: 448px;
     }
 
-    .funding-methods .method .head .arrow-down, .faqs .question .head .arrow-down{
+    .funding_methods .method .head .arrow-down, .faqs .question .head .arrow-down{
         width: 20px;
         transition: all ease-in-out .2s;
     }
 
-    .funding-methods .method .head .rotate-arrow, .faqs .question .head .rotate-arrow{
+    .funding_methods .method .head .rotate-arrow, .faqs .question .head .rotate-arrow{
         transform: rotate(180deg);
     }
     
-    .funding-methods .method .body, .faqs .question .body{
+    .funding_methods .method .body, .faqs .question .body{
         height: 0;
         padding-left: 45px;
         padding-right: 100px;
@@ -210,13 +210,13 @@ section.funding-methods .custom-container{
         transition: all ease-in-out .2s;
     }
 
-    .funding-methods .method .display-body, .faqs .question .display-body{
+    .funding_methods .method .display_body, .faqs .question .display_body{
         height: auto;
         padding-bottom: 45px;
         overflow: unset;
     }
 
-    .funding-methods .method .body small{
+    .funding_methods .method .body small{
         display: block;
         margin-top: 16px;
     }
@@ -227,7 +227,7 @@ section.savings{
     color: white;
     position: relative;
 }
-    .savings .custom-container{
+    .savings .custom_container{
         padding: 70px 144px 40px;
     }
 
@@ -299,16 +299,16 @@ section.savings{
             border-radius: 0 24px 24px 0;
         }
 
-    .savings .saved-amount{
+    .savings .saved_amount{
         text-align: center;
     }
 
-    .savings .saved-amount p{
+    .savings .saved_amount p{
         font-size: 18px;
         font-family: Proxima Nova-Thin;
     }
 
-    .savings .saved-amount strong{
+    .savings .saved_amount strong{
         font-size: 26px;
         font-family: Proxima Nova-Bold;
     }
@@ -328,7 +328,7 @@ section.savings{
 
 
 
-.discuss-funding{
+.discuss_funding{
     width: 406px;
     height: 441px;
     background-color: white;
@@ -341,18 +341,18 @@ section.savings{
 
 }
 
-.discuss-funding h2{
+.discuss_funding h2{
     font-size: 40px;
     margin-bottom: 26px;
 }
 
-.discuss-funding p{
+.discuss_funding p{
     font-family: Proxima Nova-Thin;
     margin-bottom: 40px;
     padding-right: 30px;
 }
 
-.discuss-funding button{
+.discuss_funding button{
     width: 271px;
     height: 65px;
     background-color: #05AAE1;
@@ -367,28 +367,28 @@ section.savings{
 }
 
 
-.fund-bootcamp .custom-container{
+.fund_bootcamp .custom_container{
     padding: 70px 144px 40px;
 }
 
-.fund-bootcamp h2{
+.fund_bootcamp h2{
     margin-bottom: 60px;
 }
 
-.fund-bootcamp .info{
+.fund_bootcamp .info{
     display: flex;
     gap: 55px;
     max-width: 623px;
 }
 
-.fund-bootcamp .info p{
+.fund_bootcamp .info p{
     max-width: 245px;
     font-family: Proxima Nova-Thin;
     font-size: 18px;
     line-height: 150%;
 }
 
-.fund-bootcamp .info table{
+.fund_bootcamp .info table{
     font-family: Proxima Nova-Thin;
     font-size: 16px;
     border-collapse: collapse;
@@ -396,7 +396,7 @@ section.savings{
     margin-top: 20px;
 }
 
-.fund-bootcamp .info table::before{
+.fund_bootcamp .info table::before{
     content: 'Any Coding Dojo Program';
     font-family: Proxima Nova-Bold;
     width: 133px;
@@ -406,108 +406,108 @@ section.savings{
     top: -55px;
 }
 
-.fund-bootcamp .info table .full{
+.fund_bootcamp .info table .full{
     font-size: 12px;
 }
 
-.fund-bootcamp .info table tr{
+.fund_bootcamp .info table tr{
     height: 62px;
 }
 
-.fund-bootcamp .info table tr td{
+.fund_bootcamp .info table tr td{
     padding-inline: 21px;
 }
 
-.fund-bootcamp .info table tr td span{
+.fund_bootcamp .info table tr td span{
     width: 50px;
 }
 
-.fund-bootcamp .info table tr td:first-child{
+.fund_bootcamp .info table tr td:first-child{
     width: 57%;
 }
 
-.fund-bootcamp .info table tr td:last-child{
+.fund_bootcamp .info table tr td:last-child{
     text-align: center;
 }
 
-.fund-bootcamp .info table tr:nth-child(odd) td{
+.fund_bootcamp .info table tr:nth-child(odd) td{
     background-color: rgba(196, 196, 196, 0.23);
 }
 
-.fund-bootcamp .info table tr:first-child td:first-child{
+.fund_bootcamp .info table tr:first-child td:first-child{
     border-radius: 8px 0 0 0;
 }
 
-.fund-bootcamp .info table tr:first-child td:last-child{
+.fund_bootcamp .info table tr:first-child td:last-child{
     border-radius: 0 8px 0 0;
 }
 
 
-.start-funding{
+.start_funding{
     background: rgba(80, 81, 112, 1);
     color: white;
 }
 
-.start-funding .custom-container{
+.start_funding .custom_container{
     padding: 70px 144px 40px;
 }
 
-    .start-funding h3{
+    .start_funding h3{
         font-family: Proxima Nova-Regular;
         margin-bottom: 7px;
     }
 
-    .start-funding p{
+    .start_funding p{
         font-size: 18px;
         font-family: Proxima Nova-Thin;
         line-height: 27px;
         max-width: 612px;
     }
 
-    .start-funding ul{
+    .start_funding ul{
         margin-top: 55px;
         list-style: none;
     }
 
-    .start-funding ul li{
+    .start_funding ul li{
         margin-bottom: 32px;
     }
 
-    .start-funding ul li > div{
+    .start_funding ul li > div{
         display: inline-block;
         vertical-align: middle;
     }
 
-    .start-funding ul li .desc{
+    .start_funding ul li .desc{
         max-width: 400px;
     }
 
-    .start-funding ul li .img-container{
+    .start_funding ul li .img_container{
         width: 191px;
         text-align: center;
         margin-right: 40px;
     }
 
 
-.get-hired{
+.get_hired{
     background-color: rgba(248, 250, 255, 1);
     ;
 }
 
-.get-hired .custom-container{
+.get_hired .custom_container{
     padding: 85px 144px 85px;
 }
 
-    .get-hired h2{
+    .get_hired h2{
         max-width: 698px;
     }
 
 
-.review .custom-container{
+.review .custom_container{
     padding: 70px 144px 40px;
 }
 
-    .review .custom-container > p{
+    .review .custom_container > p{
         font-family: Proxima Nova-Regular;
         font-size: 31px;
         width: 646px;
@@ -516,7 +516,7 @@ section.savings{
         margin-bottom: 25px;
     }
 
-    .review .custom-container > p .quote-icon{
+    .review .custom_container > p .quote-icon{
         position: absolute;
         left: 32%;
         bottom: -30%;
@@ -527,7 +527,7 @@ section.savings{
         display: flex;
     }
 
-    .reviewer .rev-image{
+    .reviewer .rev_image{
         width: 49px;
         height: 56px;
         background-color: #C4C4C4;
@@ -535,7 +535,7 @@ section.savings{
         margin-right: 20px;
     }
 
-    .reviewer .rev-name{
+    .reviewer .rev_name{
         font-family: Proxima Nova-Bold;
         font-size: 19px;
     }
@@ -550,15 +550,15 @@ section.savings{
     background-color: rgba(248, 250, 255, 1);
 }
 
-.faqs .custom-container{
+.faqs .custom_container{
     padding: 70px 144px 40px;
 }
 
-    .faqs .custom-container h2{
+    .faqs .custom_container h2{
         font-size: 32px;
     }
 
-    .faqs .faqs-accordion{
+    .faqs .faqs_accordion{
         margin-bottom: 70px;
     }
 
@@ -585,23 +585,23 @@ footer{
     background-color: #1E1E29;
 }
 
-footer .custom-container{
+footer .custom_container{
     padding: 70px 144px 40px;
     color: white;
 }
 
-footer .links-group{
+footer .links_group{
     display: flex;
     gap: 38px;
     font-size: 14px;
 }
 
-footer .links-group h4{
+footer .links_group h4{
     font-family: Proxima Nova-Regular;
     margin-bottom: 24px;
 }
 
-footer .links-group .links a{
+footer .links_group .links a{
     font-family: Proxima Nova-Thin;
     display: block;
     color: white;
