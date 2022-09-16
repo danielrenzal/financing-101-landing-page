@@ -151,12 +151,12 @@ h2{
     margin-top: 5px;
 }
 
-section.funding_methods{
+div.funding_methods{
     background-color: #F8FAFF;
     font-family: Proxima Nova-Regular;
 }
 
-section.funding_methods .custom_container{
+div.funding_methods .custom_container{
     padding: 80px 144px;
 }
     /* accordion styles */
@@ -222,7 +222,7 @@ section.funding_methods .custom_container{
     }
 
 
-section.savings{
+div.savings{
     background-color: rgba(80, 81, 112, 1);
     color: white;
     position: relative;
