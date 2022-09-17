@@ -1,16 +1,16 @@
 @font-face{
     font-family: Proxima Nova-Regular;
-    src: url(assets/proxima_ssv/ProximaNova-Regular.otf);
+    src: url(fonts/proxima_ssv/ProximaNova-Regular.otf);
 }
 
 @font-face{
     font-family: Proxima Nova-Thin;
-    src: url(assets/proxima_ssv/Proxima\ Nova\ Thin.otf);
+    src: url(fonts/proxima_ssv/Proxima\ Nova\ Thin.otf);
 }
 
 @font-face{
     font-family: Proxima Nova-Bold;
-    src: url(assets/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf);
+    src: url(fonts/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf);
 }
 
 *{
@@ -128,7 +128,7 @@ h2{
 }
 
 .hero{
-    background-image: url('assets/financing_101_banner.png');
+    background-image: url('images/financing_101_banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -307,7 +307,7 @@ div.savings{
         }
 
         .selected_discount::after{
-            content: url('assets/range_indicator.svg');
+            content: url('images/range_indicator.svg');
             position: absolute;
             right: -8px;
             top: -7px;
