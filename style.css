@@ -255,12 +255,12 @@ div.savings{
     }
 
     .savings .price{
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         font-family: Proxima Nova-Bold;
         font-size: 14px;
-        background-color: #05AAE1;
         width: 130px;
         height: 41px;
         margin-bottom: 23px;
@@ -273,7 +273,7 @@ div.savings{
 
     .savings .discounts{
         display: flex;
-        gap: 5px;
+        gap: 4px;
     }
 
         .discounts .option .desc{
@@ -281,6 +281,7 @@ div.savings{
         }
 
         .discounts .option:first-child .price{
+            background-color: #05AAE1;
             border-radius: 24px 0 0 24px;
             position: relative;
         }
@@ -296,8 +297,20 @@ div.savings{
             border-radius: 50%;
         }
 
+        .price{
+            background: #05AAE14D;
+            cursor: pointer;
+        }
+
         .discounts .option:last-child .price{
             border-radius: 0 24px 24px 0;
+        }
+
+        .selected_discount::after{
+            content: url('assets/range_indicator.svg');
+            position: absolute;
+            right: -8px;
+            top: -7px;
         }
 
     .savings .saved_amount{
@@ -505,7 +518,7 @@ div.savings{
 
 
 .review .custom_container{
-    padding: 70px 144px 40px;
+    padding: 70px 144px 70px;
 }
 
     .review .custom_container > p{
